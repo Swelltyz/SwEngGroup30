@@ -1,6 +1,7 @@
 from typing import Union
 from fastapi import FastAPI
 import uvicorn
+import user
 
 class Application:
     def __init__(self):
